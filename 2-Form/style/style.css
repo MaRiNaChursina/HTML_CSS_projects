@@ -1,23 +1,42 @@
-﻿body{
+﻿*{
+    box-sizing: border-box;
+}
+
+body{
     background-color: #F39494;
 }
 
 main{
     background-color: #FFFEFE;
     font-family: "Open Sans";
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 72px 95px 91px 93px;
 }
 
 h1,h2{color:#333333}
 
 h1{ 
     font-size: 36px;
+    text-align: center;
+    margin: 0;
+}
+
+p{
+    text-align: center;
+    margin: 0;
 }
 
 h2{
     font-size: 16px;
     font-weight: 600;
     border: 1px solid #F5F5F5;
+    margin: 0;
+    padding: 9px 11px;
+    height: 44px;
+    border-radius: 5px;
 }
+
 
 p,label{color: #666666;}
 
@@ -27,12 +46,15 @@ label{font-size: 14px;}
 
 a{
     color: #089FE0;
+   
 }
 
 input{
     background-color: #F5F5F5;
     font-size: 16px;
     border: none;
+    height: 44px;
+    border-radius: 5px;
 }
 
 button{
@@ -40,4 +62,42 @@ button{
     color: #FFFFFF;
     font-family: "Open Sans";
     border: none;
+    height: 44px;
+    flex-grow: 1;
+    border-radius: 5px;
+}
+
+.button{
+    position: relative;
+    display: flex;
+}
+
+.button img{
+    position: absolute;
+    left:348px;
+    top:11px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin-top: 47px;
+}
+
+.inputName{
+    display: flex;
+    flex-direction: row;
+    gap: 1px;  
+}
+
+.inputName input{
+    flex-grow: 1;
+}
+
+label input{
+    height: 16px;
+}
+label a{
+    text-decoration: none;
 }

@@ -11,14 +11,19 @@
         <section>
             <h1>Регистрация</h1>
             <p>Уже есть аккаунт? <a href="#">Войти</a></p>
-            <h2>Мой компания</h2>
             <form action="#">
-                <input type="text" name="name" placeholder="Имя" required>
-                <input type="text" name="surname" placeholder="Фамилия" required>
+                <h2>Мой компания</h2>
+                <div class="inputName">
+                    <input type="text" name="name" placeholder="Имя" required>
+                    <input type="text" name="surname" placeholder="Фамилия" required>
+                </div>
                 <input type="email" name="email" placeholder="E-mail" required>
-                <button type="submit">Зарегистрироваться</button>
-                <input type="checkbox" name="terms" id="terms">
-                <label for="terms">Я прочитал и принимаю <a href="#">Условия использования</a></label> 
+                <div class="button">
+                    <button type="submit">Зарегистрироваться</button>
+                    <img src="./imges/Arrow 1.png" alt="">
+                </div>
+                <label for="terms"><input type="checkbox" name="terms" id="terms">
+                Я прочитал и принимаю <a href="#">Условия использования</a></label> 
             </form>
         </section>
     </main>
