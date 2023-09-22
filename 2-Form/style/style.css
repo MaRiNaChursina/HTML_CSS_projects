@@ -1,0 +1,43 @@
+﻿body{
+    background-color: #F39494;
+}
+
+main{
+    background-color: #FFFEFE;
+    font-family: "Open Sans";
+}
+
+h1,h2{color:#333333}
+
+h1{ 
+    font-size: 36px;
+}
+
+h2{
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #F5F5F5;
+}
+
+p,label{color: #666666;}
+
+P, button{font-size: 18px;}
+
+label{font-size: 14px;}
+
+a{
+    color: #089FE0;
+}
+
+input{
+    background-color: #F5F5F5;
+    font-size: 16px;
+    border: none;
+}
+
+button{
+    background-color: #089FE0;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    border: none;
+}
